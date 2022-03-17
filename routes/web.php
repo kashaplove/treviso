@@ -14,5 +14,5 @@ use App\Http\Controllers;
 |
 */
 
-Route::get('/','MainController@index')->name('index');
+Route::get('/main','MainController@index')->name('index');
 Route::post('/','StoreController@store')->name('message.store');
